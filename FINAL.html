@@ -1,6 +1,60 @@
 <!DOCTYPE html>
 <head>
 <title>Electrolysis Presentation</title>
+<style>
+  
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button2 {background-color: #008CBA;} /* Blue */
+.button3 {background-color: #f44336;} /* Red */ 
+.button4 {background-color: #e7e7e7; color: black;} /* Gray */ 
+.button5 {background-color: #555555;} /* Black */
+:root{
+	--test: 50px;
+	--test2: 50px;
+	--test3: 50px;
+	--title: 50px;
+	--button: 50px;
+	--frame: 50px;
+}
+#frame{
+	position:relative;
+	top:110px;
+	overflow: hidden;
+	left:var(--test2);
+}
+button{
+	position:relative;
+	top: 75px;
+	left: var(--test);
+}
+#nani {
+	position:relative;
+	top:50px;
+	left:var(--test3);
+}
+#subtitle{
+	position:relative;
+	top:100px;
+	left:42%;
+}
+iframe{
+	position:relative;
+	margin-top:-72px;
+}
+  </style>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/p5.js"></script>
 <script>
 var halfequation1 = ['2H2O', '+', '2e-', '→', '2OH-', '+', 'H2'];

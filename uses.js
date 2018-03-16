@@ -61,4 +61,4 @@ var click = 1;
 document.onclick = function() {
   click++;
   console.log(click);
-};
+}; 

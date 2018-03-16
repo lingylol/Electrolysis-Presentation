@@ -400,4 +400,4 @@ function move() {
 	} else {
 		leftdone = 1;
 	}
-}
+} 
